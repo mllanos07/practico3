@@ -21,7 +21,7 @@ function App() {
         setGanador("Empate");
       if (selectedPlayer1 === "piedra") {
         if (selectedPlayer2 === "papel") setGanador("Jugador 2 ha ganado");
-        if (selectedPlayer2 === "tijera") setGanador("Jugador 1 ha ganado")
+        if (selectedPlayer2 === "tijera") setGanador("Jugador 1 ha ganado");
       }
       if (selectedPlayer1 === "papel") {
         if (selectedPlayer2 === "piedra") setGanador("Jugador 2 ha ganado");
@@ -29,7 +29,7 @@ function App() {
       }
       if (selectedPlayer1 === "tijera") {
         if (selectedPlayer2 === "piedra") setGanador("Jugador 2 ha ganado");
-        if (selectedPlayer2 === "papel") setGanador ("Jugador 1 ha ganado")
+        if (selectedPlayer2 === "papel") setGanador ("Jugador 1 ha ganado");
       }
     }
   }
